@@ -39,4 +39,15 @@ poetry run python
 Add module:
 ```
 poetry add requests
+
+It will be added here:
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.1"
+```
+Show installed modules:
+```
+poerty show
+poetry show --tree
+poetry show --latest
 ```
