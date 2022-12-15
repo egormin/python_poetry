@@ -51,3 +51,15 @@ poerty show
 poetry show --tree
 poetry show --latest
 ```
+
+Add scripts:
+```
+poetry run somecommand
+
+[tool.poetry.scripts]
+somecommand = "eg_package.main:go"
+
+in main.py:
+def go():
+    print("go go go")
+```
